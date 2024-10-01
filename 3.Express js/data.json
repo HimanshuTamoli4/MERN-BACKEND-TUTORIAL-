@@ -1,0 +1,210 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 59.99,
+      "stock": 120,
+      "description": "High-quality wireless headphones with noise-cancellation and up to 20 hours of battery life.",
+      "image": "https://images.unsplash.com/photo-1556742044-7b43878e84a6"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 699.99,
+      "stock": 45,
+      "description": "Latest model with a 6.5-inch display, 128GB storage, and 5G connectivity.",
+      "image": "https://images.unsplash.com/photo-1541169499-bb8c9f86d82f"
+    },
+    {
+      "id": 3,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Kitchen",
+      "price": 14.99,
+      "stock": 200,
+      "description": "Insulated water bottle that keeps your drinks cold for 24 hours and hot for 12 hours.",
+      "image": "https://images.unsplash.com/photo-1595447657392-bec3efb5918e"
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 79.99,
+      "stock": 60,
+      "description": "Comfortable and durable running shoes with breathable mesh fabric.",
+      "image": "https://images.unsplash.com/photo-1563752415-33b87fd2d9f1"
+    },
+    {
+      "id": 5,
+      "name": "LED Desk Lamp",
+      "category": "Home",
+      "price": 29.99,
+      "stock": 150,
+      "description": "Adjustable LED desk lamp with three brightness levels and touch control.",
+      "image": "https://images.unsplash.com/photo-1562516658-b1b18424b5d7"
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 49.99,
+      "stock": 85,
+      "description": "Ergonomic gaming mouse with customizable RGB lighting and 7 programmable buttons.",
+      "image": "https://images.unsplash.com/photo-1571194798927-92d53d2e9f18"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Charger",
+      "category": "Electronics",
+      "price": 25.99,
+      "stock": 95,
+      "description": "Fast wireless charger compatible with most Qi-enabled devices.",
+      "image": "https://images.unsplash.com/photo-1600931377355-2592dc5dc79c"
+    },
+    {
+      "id": 8,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "price": 22.99,
+      "stock": 180,
+      "description": "Non-slip yoga mat with extra cushioning for added comfort.",
+      "image": "https://images.unsplash.com/photo-1600891140502-d012d8cb3b39"
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 39.99,
+      "stock": 130,
+      "description": "Portable Bluetooth speaker with deep bass and up to 12 hours of playtime.",
+      "image": "https://images.unsplash.com/photo-1555685811-b08ac29e2214"
+    },
+    {
+      "id": 10,
+      "name": "Coffee Maker",
+      "category": "Kitchen",
+      "price": 89.99,
+      "stock": 75,
+      "description": "Programmable coffee maker with 12-cup capacity and auto shut-off.",
+      "image": "https://images.unsplash.com/photo-1605669132070-d0f4d4250407"
+    },
+    {
+      "id": 11,
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 49.99,
+      "stock": 70,
+      "description": "Durable backpack with multiple compartments and water-resistant material.",
+      "image": "https://images.unsplash.com/photo-1560454512-855d4f2b95ff"
+    },
+    {
+      "id": 12,
+      "name": "Electric Toothbrush",
+      "category": "Health",
+      "price": 39.99,
+      "stock": 110,
+      "description": "Rechargeable electric toothbrush with 3 brushing modes and 2-minute timer.",
+      "image": "https://images.unsplash.com/photo-1602056460816-953d16c4e64f"
+    },
+    {
+      "id": 13,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 40,
+      "description": "Compact digital camera with 20MP resolution and 4K video recording.",
+      "image": "https://images.unsplash.com/photo-1524860909028-6a823ec918d3"
+    },
+    {
+      "id": 14,
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "price": 199.99,
+      "stock": 55,
+      "description": "Smartwatch with heart rate monitor, GPS, and 7-day battery life.",
+      "image": "https://images.unsplash.com/photo-1589405568792-c89cb81e2d85"
+    },
+    {
+      "id": 15,
+      "name": "Cookware Set",
+      "category": "Kitchen",
+      "price": 149.99,
+      "stock": 35,
+      "description": "10-piece non-stick cookware set made from durable aluminum.",
+      "image": "https://images.unsplash.com/photo-1614106862598-4a0e2042fbb5"
+    },
+    {
+      "id": 16,
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 129.99,
+      "stock": 50,
+      "description": "Ergonomic office chair with lumbar support and adjustable height.",
+      "image": "https://images.unsplash.com/photo-1542317897-c6cd6e51543a"
+    },
+    {
+      "id": 17,
+      "name": "Electric Kettle",
+      "category": "Kitchen",
+      "price": 34.99,
+      "stock": 95,
+      "description": "Quick-boil electric kettle with auto shut-off and boil-dry protection.",
+      "image": "https://images.unsplash.com/photo-1604160059530-f7b2a0622262"
+    },
+    {
+      "id": 18,
+      "name": "Blender",
+      "category": "Kitchen",
+      "price": 49.99,
+      "stock": 80,
+      "description": "High-speed blender with multiple speed settings and a durable glass jar.",
+      "image": "https://images.unsplash.com/photo-1606068068726-81c6f3e8e0ed"
+    },
+    {
+      "id": 19,
+      "name": "Washing Machine",
+      "category": "Home Appliances",
+      "price": 499.99,
+      "stock": 25,
+      "description": "Front-loading washing machine with multiple wash programs and energy efficiency.",
+      "image": "https://images.unsplash.com/photo-1589173704075-908e7796262e"
+    },
+    {
+      "id": 20,
+      "name": "Dishwasher",
+      "category": "Home Appliances",
+      "price": 399.99,
+      "stock": 30,
+      "description": "Built-in dishwasher with adjustable racks and multiple cleaning modes.",
+      "image": "https://images.unsplash.com/photo-1592350921865-2531a4b3d09e"
+    },
+    {
+      "id": 21,
+      "name": "Air Fryer",
+      "category": "Kitchen",
+      "price": 89.99,
+      "stock": 60,
+      "description": "Compact air fryer with rapid air technology for healthier cooking.",
+      "image": "https://images.unsplash.com/photo-1592332843698-645f4a048c5b"
+    },
+    {
+      "id": 22,
+      "name": "Hand Mixer",
+      "category": "Kitchen",
+      "price": 29.99,
+      "stock": 110,
+      "description": "Handheld mixer with multiple speed settings and stainless steel beaters.",
+      "image": "https://images.unsplash.com/photo-1572755499723-7b7c2959d0a1"
+    },
+    {
+      "id": 23,
+      "name": "Electric Grill",
+      "category": "Kitchen",
+      "price": 119.99,
+      "stock": 40,
+      "description": "Indoor electric grill with adjustable"
+    }
+    ]
+    }   

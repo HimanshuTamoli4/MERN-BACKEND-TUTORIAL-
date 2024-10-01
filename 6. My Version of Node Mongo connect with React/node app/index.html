@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .product-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 15px;
+    }
+
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .product-category {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 16px;
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product-discount {
+      font-size: 14px;
+      color: #ff5722;
+      margin-bottom: 15px;
+    }
+
+    .product-rating {
+      font-size: 14px;
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+
+    .add-to-cart {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .add-to-cart:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-container" id="product-list">
+    <!-- Product cards will be injected here by JavaScript -->
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('/data.json')
+        .then(response => response.json())
+        .then(data => {
+          const products = data.products;
+          const productList = document.getElementById('product-list');
+          productList.innerHTML = products.map(product => `
+            <div class="product-card">
+              <img
+                src="${product.thumbnail}"
+                alt="${product.title}"
+                class="product-image"
+              />
+              <div class="product-details">
+                <div class="product-title">${product.title}</div>
+                <div class="product-category">Category: ${product.category}</div>
+                <div class="product-price">$${product.price.toFixed(2)}</div>
+                <div class="product-discount">Discount: ${product.discountPercentage}%</div>
+                <div class="product-rating">Rating: ${product.rating} / 5</div>
+                <div class="product-description">${product.description}</div>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          `).join('');
+        })
+        .catch(error => console.error('Error loading products:', error));
+    });
+  </script>
+</body>
+</html>
